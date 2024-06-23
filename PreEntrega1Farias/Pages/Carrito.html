@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Checkout page for Burgerstube, showcasing order summary and payment details.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - Burgerstube</title>
+  <link href="/PreEntrega1Farias/Assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <img src="../Assets/Imagenes/BurgerStubeNM.png" alt="Burgerstube Logo"> Burgerstube
+      </div>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./Burgers.html">Burgers</a></li>
+          <li><a href="./bebidas.html">Bebidas</a></li>
+          <li><a href="./postres.html">Postres</a></li>
+          <li><a href="./Carrito.html">Carrito</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="checkout">
+      <h1 class="titulo">Checkout - Resumen de pedido</h1>
+      <div class="resumen-de-pedido">
+        <h2>Resumen de pedido</h2>
+        <ul>
+          <li>Little Bacon: $10</li>
+          <li>Tiramisu: $5</li>
+          <li>Chandon XL: $5</li>
+          <li>Total: $20</li>
+        </ul>
+      </div>
+      <div class="detalles-pago">
+        <h2>Detalles de Pago</h2>
+        <form action="#" method="POST">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="tarjeta">Número de tarjeta:</label>
+          <input type="text" id="tarjeta" name="tarjeta" required>
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" required>
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" required>
+          <button type="submit" class="boton-confirmar">Confirmar Pedido</button>
+          
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="titulo-header">BurgerStube</div>
+        <div class="footer-contenido">
+            <h3>Contáctenos</h3>
+            <p>Puedes contactarnos en:</p>
+            <p>Email: <a href="mailto:Burgerstube@mail.com">Burgerstube@mail.com</a></p>
+            <p>Teléfono: <a href="tel:+5423456789">+54 234 567 89</a></p>
+        </div>
+        <div class="footer-contenido">
+            <h3>Encuéntrenos</h3>
+            <p>Visítanos en nuestra dirección:</p>
+            <p>Avenida Siempre Viva 123</p>
+        </div>
+        <div class="footer-contenido">
+            <h3>Redes Sociales</h3>
+            <div class="social-icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/Burgerstube" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com/Burgerstube/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://x.com/Burgerstube.ok" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="footer-contenido">
+            <h3>Delivery</h3>
+            <p>Servicio de delivery disponible:</p>
+            <p>Llama o haz tu pedido en línea</p>
+            <p>Lunes a Domingos de 21:00 a 2:00 am</p>
+            <p><a href="#">Términos y Condiciones</a></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

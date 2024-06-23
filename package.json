@@ -1,0 +1,23 @@
+{
+  "name": "entregafinal",
+  "version": "1.0.0",
+  "description": "Entrega Final CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alewsw/PreEntrega2Farias.github.io.git"
+  },
+  "keywords": [
+    "ProyectoCoderHouse",
+    "EntregaFinal"
+  ],
+  "author": "Alejo Farías",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alewsw/PreEntrega2Farias.github.io/issues"
+  },
+  "homepage": "https://github.com/Alewsw/PreEntrega2Farias.github.io#readme"
+}
